@@ -64,7 +64,7 @@ param = {
 }
 
 # MODELCHIMP Tracker instantiation
-tracker = Tracker('05b765b7-7e97-4670-bff3-fe20af427b4e', host='localhost:8000', experiment_name='MNIST Classification')
+tracker = Tracker('<PROJECT KEY>', host='localhost:8000', experiment_name='MNIST Classification')
 tracker.add_multiple_params(param)
 
 model.compile(loss=param['loss'],
